@@ -1,0 +1,25 @@
+{
+  "name": "learn-progressive-enhancement",
+  "version": "1.0.0",
+  "description": "what if JavaScript fails to load? then what?",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nelsonic/learn-progressive-enhancement.git"
+  },
+  "keywords": [
+    "progressive",
+    "enhancement",
+    "javascript",
+    "server-side"
+  ],
+  "author": "old man jim",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/nelsonic/learn-progressive-enhancement/issues"
+  },
+  "homepage": "https://github.com/nelsonic/learn-progressive-enhancement#readme"
+}
