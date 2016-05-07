@@ -1,7 +1,7 @@
 
 (function() {
   'use strict';
-
+  console.log('Hello step-05 app.js')
   // Insert injected weather forecast here
   var initialWeatherForecast = {
     key: 'newyork',
@@ -30,6 +30,7 @@
     }
   };
 
+  // Don't forget to add hasRequestPending: false
   var app = {
     isLoading: true,
     visibleCards: {},
@@ -153,7 +154,8 @@
   app.getForecast = function(key, label) {
     var url = 'https://publicdata-weather.firebaseio.com/';
     url += key + '.json';
-    // Make the XHR to get the data, then update the card
+    // Make request to the cache here
+    // Remember to set app.hasRequestPending = true!
     var request = new XMLHttpRequest();
     request.onreadystatechange = function() {
       if (request.readyState === XMLHttpRequest.DONE) {
@@ -161,7 +163,8 @@
           var response = JSON.parse(request.response);
           response.key = key;
           response.label = label;
-          app.hasRequestPending = false;
+          // Remember to set app.hasRequestPending = false!
+          console.log('[App] Forecast Updated From Network');
           app.updateForecastCard(response);
         }
       }
@@ -212,6 +215,10 @@
   }
 
   // Add feature check for Service Workers here
-
+  if('serviceWorker' in navigator) {
+    navigator.serviceWorker
+             .register('../step-04/service-worker.js')
+             .then(function() { console.log('Service Worker Registered'); });
+  }
 
 })();
