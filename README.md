@@ -25,6 +25,11 @@ You should expect to see something like this:
 Mobile:
 ![weather-01](https://cloud.githubusercontent.com/assets/194400/15094854/118371fe-14a9-11e6-93b0-7ad02d567d33.png)
 
+To run the `step-05` code, first `cd demo/pwa-weather/step-05` then `python -m SimpleHTTPServer 8000`
+and visit: http://localhost:8000/ in your browser.
+
+![pwa-weather-demo-step-05-working](https://cloud.githubusercontent.com/assets/194400/15094934/2c107db2-14ab-11e6-8f32-59850a9b6764.png)
+
 
 ## Background Reading
 

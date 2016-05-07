@@ -287,27 +287,27 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .weather-forecast .icon.clear-day {
-    background-image: url("/images/clear.png"); }
+    background-image: url("../images/clear.png"); }
   .weather-forecast .icon.clear-night {
-    background-image: url("/images/clear.png"); }
+    background-image: url("../images/clear.png"); }
   .weather-forecast .icon.rain {
-    background-image: url("/images/rain.png"); }
+    background-image: url("../images/rain.png"); }
   .weather-forecast .icon.snow {
-    background-image: url("/images/snow.png"); }
+    background-image: url("../images/snow.png"); }
   .weather-forecast .icon.sleet {
-    background-image: url("/images/sleet.png"); }
+    background-image: url("../images/sleet.png"); }
   .weather-forecast .icon.wind {
-    background-image: url("/images/wind.png"); }
+    background-image: url("../images/wind.png"); }
   .weather-forecast .icon.fog {
-    background-image: url("/images/fog.png"); }
+    background-image: url("../images/fog.png"); }
   .weather-forecast .icon.cloudy {
-    background-image: url("/images/cloudy.png"); }
+    background-image: url("../images/cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-day {
-    background-image: url("/images/partly-cloudy.png"); }
+    background-image: url("../images/partly-cloudy.png"); }
   .weather-forecast .icon.partly-cloudy-night {
-    background-image: url("/images/partly-cloudy.png"); }
+    background-image: url("../images/partly-cloudy.png"); }
   .weather-forecast .icon.thunderstorms {
-    background-image: url("/images/thunderstorms.png"); }
+    background-image: url("../images/thunderstorms.png"); }
 
 @media (max-width: 450px) {
   .weather-forecast .date, .weather-forecast .description {
