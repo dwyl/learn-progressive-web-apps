@@ -1,7 +1,7 @@
 
 (function() {
   'use strict';
-
+  console.log('Hello step-05 app.js')
   // Insert injected weather forecast here
   var initialWeatherForecast = {
     key: 'newyork',
@@ -217,7 +217,7 @@
   // Add feature check for Service Workers here
   if('serviceWorker' in navigator) {
     navigator.serviceWorker
-             .register('/service-worker.js')
+             .register('../step-04/service-worker.js')
              .then(function() { console.log('Service Worker Registered'); });
   }
 
