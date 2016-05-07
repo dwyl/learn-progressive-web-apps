@@ -14,7 +14,16 @@ as single-page apps which manage stare on the client the client.
 
 > Tutorial: https://developers.google.com/web/fundamentals/getting-started/your-first-progressive-web-app/
 
-Run it with `python -m SimpleHTTPServer 3000` then visit: http://localhost:3000/demo/pwa-weather/
+First change into `/demo/pwa-weather` e.g: `cd demo/pwa-weather/`
+Then run a simple web server with `python -m SimpleHTTPServer 8000`
+then visit: http://localhost:8000/step-04/
+
+You should expect to see something like this:
+
+![pwa-weather-demo-step-04](https://cloud.githubusercontent.com/assets/194400/15094655/06567e26-14a3-11e6-865a-1ae55a325f75.png)
+
+Mobile:
+![weather-01](https://cloud.githubusercontent.com/assets/194400/15094854/118371fe-14a9-11e6-93b0-7ad02d567d33.png)
 
 
 ## Background Reading
